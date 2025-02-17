@@ -570,7 +570,7 @@
 
         function LoadPublishAddons() {
             var addonList = document.getElementById("addonList");
-            var curList = [{"name":"test123","addonType":"wps","online":"true","multiUser":"false","url":"http://www.test.a/"},{"name":"wps-open-ai","addonType":"wps","online":"false","multiUser":"false","url":"https://panmingjun.github.io/wps-open-ai/wps-addon-build/wps-open-ai.7z","version":"1.0.0"}];
+            var curList = [{"name":"test123","addonType":"wps","online":"true","multiUser":"false","url":"http://www.test.a/"},{"name":"wps-open-ai","addonType":"wps","online":"false","multiUser":"false","url":"https://gitee.com/panmingjunx/wps-open-ai/raw/main/wps-addon-build/wps-open-ai.7z","version":"1.0.0"}];
             curList.forEach(function (element) {
                 var param = JSON.stringify(element).replace("\"", "\'");
                 UpdateElement(element, 'enable')
