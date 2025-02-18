@@ -15,8 +15,8 @@ async function callOpenAi(config) {
     if(messageFunc){
         var messages=messageFunc(prompt)
     }else{
-        var messages=[{ "role": "user", "content": "续写内容" },
-            { "role": "assistant", "content": prompt, "prefix": true }]
+      alert('不支持的操作')
+      return;
     }
 
     var requestBody = {
